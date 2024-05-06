@@ -1,0 +1,22 @@
+{
+  "namespace": "RemoteCacheKick.Core",
+  "description": "Serializes the Core db items for the RemoteCacheKick module",
+  "items": {
+    "includes": [
+      {
+        "allowedPushOperations": "createUpdateAndDelete",
+        "database": "core",
+        "name": "Foundation.RemoteCacheKick.Chunks",
+        "path": "/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Remote Cache Clearer",
+        "scope": "itemAndDescendants"
+      },
+      {
+        "allowedPushOperations": "createUpdateAndDelete",
+        "database": "core",
+        "name": "Foundation.RemoteCacheKick.Strips",
+        "path": "/sitecore/content/Applications/Content Editor/Ribbons/Strips/Publish/Remote Cache Clearer",
+        "scope": "itemAndDescendants"
+      }
+    ]
+  }
+}
